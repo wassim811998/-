@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ajyad",
+    "latitude": 21.41944,
+    "longitude": 39.83056,
+    "source": "English Wikipedia, article 'Ajyad' (21°25′10″N 39°49′50″E): https://en.wikipedia.org/wiki/Ajyad",
+    "verified": true
+  },
+  {
+    "name": "Jarwal",
+    "latitude": 21.433,
+    "longitude": 39.817,
+    "source": "Wikipedia article 'Jarwal (Mecca neighborhood)' (21°26′N 39°49′E), read via a Wikipedia mirror: https://ipfs.ssi.eecc.de/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Jarwal_(Mecca_neighborhood).html",
+    "verified": true
+  },
+  {
+    "name": "Al Gazzah",
+    "latitude": 21.361745,
+    "longitude": 39.801182,
+    "source": "Google Maps, pin dropped by the project team on search result 'حي الغزه مكه' (label shown: حي الغزه الجديد / Al Gazzah Al Jadid), Plus Code 9R62+MFV, read on 2026-11-23. NOTE: this is New Gazzah, roughly 7 km south of the Haram; confirm it is the area the team means.",
+    "verified": true
+  },
+  {
+    "name": "Kudai",
+    "latitude": 21.386729,
+    "longitude": 39.831807,
+    "source": "Google Maps pin shared by the project team for Kudai (حي كدي): https://maps.app.goo.gl/7qQfg14XueBJvYkV6 , which redirects to google.com/maps/place/21.386729,39.831807. Read on 2026-11-23.",
+    "verified": true
+  },
+  {
+    "name": "Shubaikah",
+    "latitude": 21.41806,
+    "longitude": 39.82131,
+    "source": "Google Maps search result 'حي الشبيكة مكه' (الشبيكة, مكة 24231), Plus Code CR9C+6GX, read on 2026-11-23. Coordinates decoded from the Plus Code with the public Open Location Code algorithm (decoder validated against the Al Gazzah pin; precision about 14 m).",
+    "verified": true
+  }
+]
