@@ -1,0 +1,21 @@
+name: collect
+on: workflow_dispatch
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pandas
+      - run: python api_collector.py
+      - run: |
+          head -5 historical_weather.csv
+          wc -l historical_weather.csv
+      - uses: actions/upload-artifact@v4
+        with:
+          name: weather-data
+          path: |
+            historical_weather.csv
+            collection_metadata.json
